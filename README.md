@@ -31,6 +31,7 @@
       <br>
       <li>Messing up Wikipedia Entries: <q>That might have felt weird, but what else can I do when I feel lonely. Messing up Wikipedia Entries gives me some kind of happiness. I already said right that I'm an Introvert.</q></li>
       <br>
+      <hr>
     </ul>
     <h3 style="color: chocolate; font-family:cursive;"><b><i><ins>My Favourite Movies or T.V Shows:</ins></i></b></h3>
       <p style="color: dodgerblue; font-family:Comic Sans MS;">
@@ -49,6 +50,17 @@
         <br>
         <li>The Big Bang Theory(Favourite Character: Sheldon)</li>
         <br>
+        <hr>
       </ul>
+  <form>
+    <label for="first name">Your Name: </label>
+    <input type="text" id="first name" name="first name" placeholder="Enter your First Name: ">
+    <label for="last name">Your Name: </label>
+    <input type="text" id="last name" name="last name" placeholder="Enter your Last Name: ">
+    <label for="phone">Ph.No: </label>
+    <input type="tel" id="name" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter your Phone Number: "
+    <label for="Description">Description: </label>
+    <input type="textarea" name:"Description">
+  </form>
 </body>
 </html>
