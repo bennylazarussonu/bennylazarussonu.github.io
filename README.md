@@ -69,7 +69,7 @@
     <label for="phone">Ph.No: </label>
     <input type="tel" id="name" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter your Phone Number: "><br>
     <label for="Description">Description: </label>
-    <input type="textarea" name:"Description">
+    <input type="text" name:"Description">
   </form>
 </body>
 </html>
