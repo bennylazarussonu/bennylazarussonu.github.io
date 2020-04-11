@@ -5,7 +5,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Benny's Blog</title>
-  <link rel="stylesheet" type="text/css" href="style1.css">
+  <style>
+    body{
+      width: 80%;
+    border: 20px solid #bdc3c7;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    }
+  </style>
 </head>
 <body>
   <h1 style= "text-align: center;font-family:Impact, Charcoal, sans-serif;color: RoyalBlue;">Benny Lazarus Kamal</h1>
@@ -56,9 +65,9 @@
     <label for="first name">Your Name: </label>
     <input type="text" id="first name" name="first name" placeholder="Enter your First Name: ">
     <label for="last name">Your Name: </label>
-    <input type="text" id="last name" name="last name" placeholder="Enter your Last Name: ">
+    <input type="text" id="last name" name="last name" placeholder="Enter your Last Name: "><br>
     <label for="phone">Ph.No: </label>
-    <input type="tel" id="name" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter your Phone Number: "
+    <input type="tel" id="name" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter your Phone Number: "><br>
     <label for="Description">Description: </label>
     <input type="textarea" name:"Description">
   </form>
