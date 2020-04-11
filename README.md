@@ -67,9 +67,9 @@
     <label for="last name">Your Name: </label>
     <input type="text" id="last name" name="last name" placeholder="Enter your Last Name: "><br>
     <label for="phone">Ph.No: </label>
-    <input type="tel" id="name" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter your Phone Number: "><br>
+    <input type="tel" id="name" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter your Phone Number: "><br><br>
     <label for="Description">Description: </label>
-    <input type="text" name:"Description">
+    <input type="text" id="Description" name:"Description">
   </form>
 </body>
 </html>
