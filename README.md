@@ -80,11 +80,11 @@
   </form>
   <br>
   <script>
-    var fname = document.getElementById("fname").value;
-    var lname = document.getElementById("lname").value;
-    var phone = document.getElementById("phone").value;
-    var email = document.getElementById("email").value;
-    var comment = document.getElementById("comment").value;
+    let fname = document.getElementById("fname").value;
+    let lname = document.getElementById("lname").value;
+    let phone = document.getElementById("phone").value;
+    let email = document.getElementById("email").value;
+    let comment = document.getElementById("comment").value;
     function send(){
     alert("Name: " + fname + lname + "\n" + "Ph.No: " + phone + "\n" + "Email: " + email + "\n" + "Comments: " + comment + "\n" + "All this Info is now sent to Benny" +"\n"+ "Benny: Thank you for reading my blog.");
     }
