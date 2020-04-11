@@ -75,7 +75,7 @@
     <label for="email">Email Address: </label>
     <input type="email" id="email" name="email" value="" placeholder="example@email.com"><br>
     <label for="comment">Comments: </label>
-    <textarea name="comment" id="comment" value="" rows="10" cols="50">Enter your thoughts here...</textarea><br>
+    <textarea name="comment" id="comment" value="" rows="5" cols="50">Enter your thoughts here...</textarea><br>
     <button onclick="send()">Send</button>
   </form>
   <br>
@@ -85,6 +85,8 @@
     let phone = document.getElementById("phone").value;
     let email = document.getElementById("email").value;
     let comment = document.getElementById("comment").value;
+    
+    
     function send(){
     alert("Name: " + fname + lname + "\n" + "Ph.No: " + phone + "\n" + "Email: " + email + "\n" + "Comments: " + comment + "\n" + "All this Info is now sent to Benny" +"\n"+ "Benny: Thank you for reading my blog.");
     }
