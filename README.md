@@ -10,7 +10,7 @@
       width: 80%;
     border: 20px solid #bdc3c7;
     font-family: 'Source Sans Pro', sans-serif;
-    padding: 20px;
+    padding: 20px; 
     margin: 20px auto;
     max-width: 700px;
     }
