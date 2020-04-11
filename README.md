@@ -70,6 +70,12 @@
     <input type="tel" id="name" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter your Phone Number: "><br><br>
     <label for="Description">Description: </label>
     <input type="text" id="Description" name:"Description">
+    <input type="button" value="Click me" onclick="msg()">
   </form>
+  <script>
+    function msg(){
+      alert("Hello");
+    }
+  </script>
 </body>
 </html>
