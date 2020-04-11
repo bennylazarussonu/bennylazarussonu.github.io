@@ -69,13 +69,13 @@
     <label for="fname">First Name: </label>
     <input type="text" name="fname" value="" id="fname" placeholder="First Name">
     <label for="lname">Last Name: </label>
-    <input type="text" name="lname" value="" id="lname" placeholder="Last Name">
+    <input type="text" name="lname" value="" id="lname" placeholder="Last Name"><br>
     <label for="phone">Ph.No: </label>
-    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="" name="phone" id="phone" placeholder="Phone Number">
+    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="" name="phone" id="phone" placeholder="Phone Number"><br>
     <label for="email">Email Address: </label>
-    <input type="email" id="email" name="email" value="" placeholder="example@email.com">
+    <input type="email" id="email" name="email" value="" placeholder="example@email.com"><br>
     <label for="comment">Comments: </label>
-    <textarea name="comment" id="comment" value="" rows="10" cols="50">Enter your thoughts here...</textarea>
+    <textarea name="comment" id="comment" value="" rows="10" cols="50">Enter your thoughts here...</textarea><br>
     <button onclick="send()">Send</button>
   </form>
   <br>
@@ -86,7 +86,7 @@
     var email = document.getElementById("email").value;
     var comment = document.getElementById("comment").value;
     function send(){
-    alert("Name: " + fname + lname + "\n" + "Ph.No: " + phone + "\n" + "Email: " + email + "\n"+ "Comments: " + comment);
+    alert("Name: " + fname + lname + "\n" + "Ph.No: " + phone + "\n" + "Email: " + email + "\n" + "Comments: " + comment + "\n" + "All this Info is now sent to Benny" +"\n"+ "Benny: Thank you for reading my blog.");
   </script>
 </body>
 </html>
