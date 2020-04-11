@@ -75,7 +75,7 @@
     <label for="email">Email Address: </label>
     <input type="email" id="email" name="email" value="" placeholder="example@email.com"><br>
     <label for="comment">Comments: </label>
-    <textarea name="comment" id="comment" value="" rows="5" cols="50">Enter your thoughts here...</textarea><br>
+    <textarea name="comment" id="comment" value="" rows="5" cols="50" placeholder="Enter your thoughts here..."></textarea><br>
     <button onclick="send()">Send</button>
   </form>
   <br>
