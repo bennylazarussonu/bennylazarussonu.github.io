@@ -85,8 +85,6 @@
     let phone = document.getElementById("phone").value;
     let email = document.getElementById("email").value;
     let comment = document.getElementById("comment").value;
-    
-    
     function send(){
     alert("Name: " + fname + lname + "\n" + "Ph.No: " + phone + "\n" + "Email: " + email + "\n" + "Comments: " + comment + "\n" + "All this Info is now sent to Benny" +"\n"+ "Benny: Thank you for reading my blog.");
     }
