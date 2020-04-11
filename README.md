@@ -14,6 +14,9 @@
     margin: 20px auto;
     max-width: 700px;
     }
+    label {
+    color:dodgerblue;
+    }
   </style>
 </head>
 <body>
@@ -61,22 +64,29 @@
         <br>
         <hr>
       </ul>
-  <form>
-    <label for="first name">Your Name: </label>
-    <input type="text" id="first name" name="first name" placeholder="Enter your First Name: " required>
-    <label for="last name">Your Name: </label>
-    <input type="text" id="last name" name="last name" placeholder="Enter your Last Name: " required><br>
+  <h2>Contact Info: <h2>
+  <form border="2">
+    <label for="fname">First Name: </label>
+    <input type="text" name="fname" value="" id="fname" placeholder="First Name">
+    <label for="lname">Last Name: </label>
+    <input type="text" name="lname" value="" id="lname" placeholder="Last Name">
     <label for="phone">Ph.No: </label>
-    <input type="tel" id="name" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter your Phone Number: " required><br><br>
-    <label for="Description">Description: </label>
-    <input type="textarea" id="Description" name="Description" placeholder="Description: " required><br>
-    <input type="button" value="Send" onclick="msg()">
+    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" value="" name="phone" id="phone" placeholder="Phone Number">
+    <label for="email">Email Address: </label>
+    <input type="email" id="email" name="email" value="" placeholder="example@email.com">
+    <label for="comment">Comments: </label>
+    <textarea name="comment" id="comment" value="" rows="10" cols="50">Enter your thoughts here...</textarea>
+    <button onclick="send()">Send</button>
   </form>
   <br>
   <script>
-    function msg(){
-      alert("Hello");
-    }
+    var fname = document.getElementById("fname").value;
+    var lname = document.getElementById("lname").value;
+    var phone = document.getElementById("phone").value;
+    var email = document.getElementById("email").value;
+    var comment = document.getElementById("comment").value;
+    function send(){
+    alert("Name: " + fname + lname + "\n" + "Ph.No: " + phone + "\n" + "Email: " + email + "\n"+ "Comments: " + comment);
   </script>
 </body>
 </html>
