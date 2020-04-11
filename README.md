@@ -63,14 +63,14 @@
       </ul>
   <form>
     <label for="first name">Your Name: </label>
-    <input type="text" id="first name" name="first name" placeholder="Enter your First Name: ">
+    <input type="text" id="first name" name="first name" placeholder="Enter your First Name: " required>
     <label for="last name">Your Name: </label>
-    <input type="text" id="last name" name="last name" placeholder="Enter your Last Name: "><br>
+    <input type="text" id="last name" name="last name" placeholder="Enter your Last Name: " required><br>
     <label for="phone">Ph.No: </label>
-    <input type="tel" id="name" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter your Phone Number: "><br><br>
+    <input type="tel" id="name" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Enter your Phone Number: " required><br><br>
     <label for="Description">Description: </label>
-    <input type="textarea" id="Description" name="Description" placeholder="Description: "><br>
-    <input type="button" value="Click me" onclick="msg()">
+    <input type="textarea" id="Description" name="Description" placeholder="Description: " required><br>
+    <input type="button" value="Send" onclick="msg()">
   </form>
   <br>
   <script>
